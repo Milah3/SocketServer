@@ -21,7 +21,15 @@ def send(msg):
     client.send(send_length)
     client.send(message)
 
-send('Hello World!')
+    print(client.recv(HEADER).decode(FORMAT))
+
+send('Testing')
+send('Testing')
+send('1')
+send('2')
+send('3')
+send(DISCONNECT_MESSAGE)
+
 
 
     

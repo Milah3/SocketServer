@@ -1,4 +1,3 @@
-from cmath import log
 import socket
 import threading
 
@@ -28,8 +27,7 @@ def handle_client(conn, addr):
                 connected = False
 
         print(f"[{addr}] {msg or ''}")
-        conn.send("Msg received".encode(FORMAT))
-
+        conn.send("Server has received received msg".encode(FORMAT))
     conn.close()
 
 
