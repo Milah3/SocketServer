@@ -5,3 +5,4 @@ This app is my first attempt at learning sockets and how they work. I've definit
 # Thanks
 
 Shoutout to Tim from Tech With Tim for his awesome Python Socket Programming tutorials
+[https://www.youtube.com/watch?v=3QiPPX-KeSc](https://www.youtube.com/watch?v=3QiPPX-KeSc)
